@@ -32,19 +32,19 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
   
 Descargar los siguientes archivos y copiarlos en la carpeta weights
 
-# Download weights for vanilla YOLOv3
+### Download weights for vanilla YOLOv3
 https://pjreddie.com/media/files/yolov3.weights
-# Download weights for tiny YOLOv3
+### Download weights for tiny YOLOv3
 https://pjreddie.com/media/files/yolov3-tiny.weights
-# Download weights for backbone network
+### Download weights for backbone network
 https://pjreddie.com/media/files/darknet53.conv.74
 
-### Probar la detección
+## Probar la detección
 
-# En imágenes
+### En imágenes
   $ python detect.py --image_folder data/samples/
 
-# En video
+### En video
   $ python detect_cam.py
 
 

@@ -24,7 +24,7 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
   
   $ pip install pillow
   
-  $ pip install tqd
+  $ pip install tqdm
 
 
 ### Implementar YOLOv3

@@ -1,4 +1,4 @@
-"# YoloV3_video" 
+# YoloV3_video
 En este proyecto implementaremos la técnica de detección de objetos usando YOLO_V3 en tiempo real.
 
 ##Artìculo original:

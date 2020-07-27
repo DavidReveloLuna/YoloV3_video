@@ -1,10 +1,10 @@
 # YoloV3_video
 En este proyecto implementaremos la técnica de detección de objetos usando YOLO_V3 en tiempo real.
 
-##Artìculo original:
+# Artìculo original:
 https://pjreddie.com/media/files/papers/YOLOv3.pdf
 
-##Implementación:
+# Implementación:
 
 ### Crear entorno en conda
 conda create -n YoloEntorno anaconda python=3.6

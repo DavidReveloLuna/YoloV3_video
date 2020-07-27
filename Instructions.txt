@@ -1,0 +1,26 @@
+repositorio guía
+https://github.com/eriklindernoren/PyTorch-YOLOv3
+
+
+Crear entorno
+
+conda create -n YoloEntorno anaconda python=3.
+
+pip install opencv-python 
+pip install numpy
+conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+pip install matplotlib
+pip install tensorboard
+pip install terminaltables
+pip install pillow
+pip install tqdm
+
+
+Download weights
+
+# Download weights for vanilla YOLOv3
+https://pjreddie.com/media/files/yolov3.weights
+# Download weights for tiny YOLOv3
+https://pjreddie.com/media/files/yolov3-tiny.weights
+# Download weights for backbone network
+https://pjreddie.com/media/files/darknet53.conv.74

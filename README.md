@@ -46,6 +46,9 @@ https://pjreddie.com/media/files/darknet53.conv.74
 
 ### En video
   $ python detect_cam.py
+  
+### Basado en el trabajo de Erik Linder
+https://github.com/eriklindernoren
 
 
 

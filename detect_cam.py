@@ -67,7 +67,7 @@ if __name__ == "__main__":
 	while camera:
 		ret, frame = camera.read()
 
-		frame = cv2.resize(frame, (1280, 960), interpolation=cv2.INTER_CUBIC)
+		frame = cv2.resize(frame, (1000, 800), interpolation=cv2.INTER_CUBIC)
 		#LA imagen viene en Blue, Green, Red y la convertimos a RGB que es la entrada que requiere el modelo
 		
 		imgTensor = transforms.ToTensor()(frame)

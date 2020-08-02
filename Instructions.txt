@@ -29,3 +29,7 @@ https://pjreddie.com/media/files/darknet53.conv.74
 pip install tensorflow
 python train.py --model_def config/yolov3-tinyC.cfg --data_config config/custom.data --epochs 2 --batch_size 1   
 python detectC.py --image_folder data/samplesC/ --model_def config/yolov3-tinyC.cfg --weights_path checkpoints/yolov3_ckpt_8.pth --class_path data/custom/classes.names
+python detect_cam.py --model_def config/yolov3-customM.cfg --weights_path checkpoints/yolov3_ckpt_49.pth --class_path data/custom/classes.names
+
+usr/local/lib/libpackages/torchvision/transforms/functional.py
+from PIL import Image, ImageOps, ImageEnhance, __version__ as PILLOW_VERSION

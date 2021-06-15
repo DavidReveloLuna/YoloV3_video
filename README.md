@@ -50,5 +50,7 @@ https://pjreddie.com/media/files/darknet53.conv.74
 ### Basado en el trabajo de Erik Linder
 https://github.com/eriklindernoren
 
+# **Canal de Youtube**
+[Click aquì pare ver mi canal de YOUTUBE](https://www.youtube.com/channel/UCr_dJOULDvSXMHA1PSHy2rg)
 
 
